@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.project.dp130634.balancegame.newMap.NewMapActivity">
+
+    <com.project.dp130634.balancegame.GameFieldImageView
+        android:id="@+id/newMapImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/saveButton"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/middleDivisor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/middleDivisor"
+        android:text="@string/save"
+        android:onClick="saveMap"/>
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/saveButton"
+        android:text="@string/cancel"
+        android:onClick="cancel"/>
+</RelativeLayout>

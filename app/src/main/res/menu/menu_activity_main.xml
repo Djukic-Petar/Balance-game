@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newMapMenuItem"
+        android:checkable="false"
+        android:visible="true"
+        android:title="@string/newMap"/>
+
+    <item
+        android:id="@+id/highScoresMenuItem"
+        android:checkable="false"
+        android:visible="true"
+        android:title="@string/highScores"/>
+
+    <item
+        android:id="@+id/settingsMenuItem"
+        android:checkable="false"
+        android:visible="true"
+        android:title="@string/settings"/>
+</menu>

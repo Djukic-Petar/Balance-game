@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/startingPositionMenuItem"
+            android:title="@string/startingPosition"/>
+        <item
+            android:id="@+id/victoryHoleMenuItem"
+            android:title="@string/victoryHole"/>
+        <item
+            android:id="@+id/deathHoleMenuItem"
+            android:title="@string/deathHole"/>
+        <item
+            android:id="@+id/wallMenuItem"
+            android:title="@string/wall"/>
+    </group>
+</menu>

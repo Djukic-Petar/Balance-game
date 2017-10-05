@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Balance game</string>
+    <string name="newMap">New map</string>
+    <string name="settings">Settings</string>
+    <string name="highScores">High scores</string>
+    <string name="mass">Ball mass</string>
+    <string name="elasticity">Elasticity</string>
+    <string name="friction">Friction</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="startingPosition">Starting position</string>
+    <string name="victoryHole">Victory hole</string>
+    <string name="deathHole">Death hole</string>
+    <string name="wall">Wall</string>
+    <string name="noRequiredHoles">The map needs to have a starting point and a victory hole!</string>
+    <string name="unsupportedDevice">Unsupported device!</string>
+    <string name="youDied">You died!</string>
+    <string name="backToMain">Back to main menu</string>
+    <string name="retry">Retry</string>
+    <string name="clearAllScores">Clear all scores</string>
+    <string name="scoresCleared">Scores cleared!</string>
+    <string name="clearScores">Clear scores</string>
+    <string name="deleteMap">Delete map</string>
+    <string name="mapDeleted">Map deleted!</string>
+    <string name="resetSettings">Reset settings to default values</string>
+    <string name="settingsReset">Settings reset to default</string>
+</resources>
